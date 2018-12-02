@@ -24,6 +24,7 @@ print('Ball size:',bsize)
 print('Girth:',girth)
 print('Length:',length)
 
+hideturtle()
 setup(length + bsize + 225, bsize*4 + 205)
 title('Dick Window')
 speed(15)
